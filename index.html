@@ -420,52 +420,41 @@
 		<!-- END BLOG -->
 		
 <!-- START CONTACT -->
-<section id="contact" class="gray_bg section_padding">
-    <div class="container">
-
-        <!-- Heading -->
-        <div class="section_heading text-center">
-            <h2>Contact <span>Me</span></h2>							
-            <div class="sm_border"></div>
-            <p>Have a project or idea? Let’s work together!</p>
-        </div>	
-
-        <div class="row text-center">
-
-            <!-- Google Form Button -->
-            <div class="col-md-6 col-sm-12" style="margin-bottom:20px;">
-                <div class="single-service">
-                    <i class="fa fa-envelope" style="font-size:40px;"></i>
-                    <h4>Send Message</h4>
-                    <p>Fill out my contact form and I’ll get back to you quickly.</p>
-
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc28oesuNZv5u5ezERWNcwkfvwALdCxUoMcJtotM8VCKHvxQA/viewform" 
-                    target="_blank" 
-                    class="btn btn-default main_btn">
-                    Open Contact Form
-                    </a>
-                </div>
-            </div>
-
-            <!-- Direct Email -->
-            <div class="col-md-6 col-sm-12" style="margin-bottom:20px;">
-                <div class="single-service">
-                    <i class="fa fa-paper-plane" style="font-size:40px;"></i>
-                    <h4>Email Me Directly</h4>
-                    <p>You can also send me a direct email anytime.</p>
-
-                    <a href="mailto:kaleemmansha67@gmail.com" 
-                    class="btn btn-default main_btn">
-                    Send Email
-                    </a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-<!-- END CONTACT -->
+			<section id="contact" class="gray_bg section_padding">
+				<div class="container">
+					<div class="col-md-12 col-sm-12-col-xs-12">
+						<div class="section_heading text-center">
+							<h2>Contact <span>Us</span></h2>							
+							<div class="sm_border"></div>
+						</div>	
+					</div>	
+					
+					<div class="row">						
+						<div class="col-md-12 col-sm-12">
+							<form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+								<div class="row">
+									<div class="form-group col-md-4">
+										<input type="text" name="name" class="form-control" placeholder="Name" required="required">
+									</div>
+									<div class="form-group col-md-4">
+										<input type="email" name="email" class="form-control" placeholder="Email" required="required">
+									</div>
+									<div class="form-group col-md-4">
+										<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+									</div>
+									<div class="form-group col-md-12">
+										<textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+									</div>
+									<div class="col-md-12 text-center">
+										<button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-default main_btn" title="Submit Your Message!">Send Message</button>
+									</div>
+								</div>
+							</form>
+						</div>						
+					</div>
+				</div>
+			</section>
+		<!-- END CONTACT -->
 		
 		<!-- START FOOTER -->
 			<div class="footer">
